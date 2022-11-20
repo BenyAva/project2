@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head.ejs') %> 
+</head>
+<body class="container-fluid text-center">
+
+        <%- include('../partials/nav.ejs') %> 
+
+
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <img src="<%=data.img %>" class="img-fluid w-25" alt="...">
+              <h1 class="display-4"><%=data.name %></h1>
+              <p class="lead">Hp:<%=data.hp %></p>
+              <p class="lead">Year:<%=data.year %></p>
+              <p class="lead">Make:<%=data.make%></p>
+              <p class="lead">Model:<%=data.model%></p>
+              
+              <p class="lead"><%=data.description %></p>
+              
+              <a href="/<%=data._id%>/edit"><button type="button" class="btn btn-secondary">Edit</button></a>
+            </div>
+            
+          </div>
+      
+</body>
+</html>

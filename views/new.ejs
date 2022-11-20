@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head.ejs') %> 
+</head>
+<body class="container-fluid text-center">
+
+        <%- include('../partials/nav.ejs') %> 
+        <h2>Add New Car</h2>
+        <form action="/" method="POST">
+            <div class="form-group">
+                name: <input type="text" name="name"/> <br/>
+            </div>
+            <div class="form-group">
+                image: <input type="text" name="img"/> <br/>
+            </div>
+            <div class="form-group">
+                Description : <input type="text" name="description"/> <br/>
+            </div>
+            <div class="form-group">
+                Year: <input type="text" name="year"/> <br/>
+            </div>
+            <div class="form-group">
+                Make: <input type="text" name="make"/> <br/>
+            </div>
+            <div class="form-group">
+                Model: <input type="text" name="model"/> <br/>
+            </div>
+            <div class="form-group">
+                Horse Power: <input type="text" name="hp"/> <br/>
+            </div>
+        
+                <input type="submit" value="add car"/>
+            </div>
+          </form>
+
+</body>
+</html>

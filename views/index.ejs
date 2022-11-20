@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <%- include('../partials/head.ejs') %> 
+</head>
+<body class="container-fluid">
+    
+        <%- include('../partials/nav.ejs') %> 
+        <div class="text-center title">
+            <h1>Beny's Dream Car's</h1>
+        </div>
+        
+    <div class="d-flex flex-row justify-content-around align-self-stretch flex-wrap">
+        <% for(let i =0; i < data.length; i++) { %> 
+           
+            <div class="card" style="width: 18rem;">
+                <img src="<%=data[i].img%>" class="card-img-top" alt="..." width= "50%" height="50%">
+                    <div class="card-body">
+                        <h5 class="card-title"><%=data[i].name%></h5>
+                        <p class="card-text"><h4>horse power</h4><%=data[i].hp%></p>
+                            <div class="d-flex flex-row justify-content-around">
+                                    <a href="/<%=data[i].id%>" class="btn btn-primary">MORE INFO</a>
+                                    <form action="/<%=data[i].id%>?_method=DELETE" method="POST">
+                                        <input class="delete btn btn-dark" type="submit" value="DELETE" />
+                                    </form>
+                            </div>
+                    </div>
+            </div>
+            <% } %> 
+    </div>
+</body>
+</html> 
+
+
+
+<ul>
+       
