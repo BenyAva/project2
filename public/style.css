@@ -1,7 +1,11 @@
 body{
-   background-image: url(https://ae01.alicdn.com/kf/HTB1xhGGNhnaK1RjSZFtq6zC2VXaf/LIFE-MAGIC-BOX-Black-Background-for-Photo-Shoots-Wedding-Funds-Photography-Studio.jpg_Q90.jpg_.webp);
+    background-image: url(https://64.media.tumblr.com/995e49842cbc67c1b9531adc2857e876/tumblr_pb00c4hRaU1u7gnm9o1_500.gif);
    background-size: cover;
+   background-size: contain;
+ 
 }
+
+
 nav{
     margin-top: 2em;
     border-style: solid;
@@ -21,10 +25,11 @@ nav{
     margin-bottom: 4em;
     box-shadow: 5px 10px;
     font-family: 'Permanent Marker', cursive;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
     
     
 }
-/* .card:hover{
+/* .card{
     margin-bottom: 5em;
     border-style: solid ;
     border-color: black;
@@ -40,40 +45,46 @@ nav{
     transition: 0.3s;
   
 }  */
-
+/* .card:hover{
+   
+} */
 
 /* /////////////////// */ 
 /* TEST
 ////////////////////// */
 
-/* .card {
+.card {
     position: relative;
     min-width: 300px;
     height: auto;
     overflow: hidden;
     border-radius: 30px;
-    margin: 0 auto;
-    
-    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    margin: 30px;
+    box-shadow: 0 10px 15px rgba(8, 4, 85, 0.902);
     transition: .5s;
-    background-color: rgb(128, 15, 15);
+    background-image: url(https://i.pinimg.com/originals/17/0c/af/170caf45d4ef102e5536bfdc852ddf82.jpg);
+    background-size: cover;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
     color: rgb(253, 253, 253);
-  }
-  .card:hover {
+  } 
+.card:hover {
     transform:scale(1.1);
     margin-bottom: 5em;
     border-style: solid ;
     border-color: black;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     background-color: gray;
-    padding: 40px 20px 40px 40px;
+    background-image: url(https://thumbs.gfycat.com/WhichSnarlingImperatorangel-size_restricted.gif);
+    /* background-size: cover; */
+    background-position: top 110px left 0px;
+    /* padding: 40px 20px 40px 40px; */
   
-}  */
+} 
 /* ///////////////// */
 /* TEST 2/////////// */
 
 
-.card {
+ /* .card {
     position: relative;
     min-width: 300px;
     height: auto;
@@ -83,8 +94,14 @@ nav{
     padding: 40px 20px;
     box-shadow: 0 10px 15px rgba(0,0,0,0.3);
     transition: .5s;
-  }
+  } */
+
+/* 
   .card:hover {
-    transform:scale(1.1);
-  }
- 
+
+  } 
+  */
+
+#imgedit{
+    margin-top: 20px !important;
+}

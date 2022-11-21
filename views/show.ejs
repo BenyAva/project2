@@ -7,11 +7,15 @@
 
         <%- include('../partials/nav.ejs') %> 
 
-
+        <div class="text-center title">
+          <h1>Edit Car Page</h1>
+      </div>
+      
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                <img src="<%=data.img %>" class="img-fluid w-25" alt="...">
+            <img src="<%=data.img %>" class="img-fluid w-25" alt="...">
               <h1 class="display-4"><%=data.name %></h1>
+              <hr class="my-4">
               <p class="lead">Hp:<%=data.hp %></p>
               <p class="lead">Year:<%=data.year %></p>
               <p class="lead">Make:<%=data.make%></p>

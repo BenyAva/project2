@@ -7,20 +7,34 @@
 
         <%- include('../partials/nav.ejs') %> 
 
-        <h1>Edit Car Page</h1>
+        <div class="text-center title">
+            <h1>Edit Car Page</h1>
+        </div>
 
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
                 <form action="/<%=data._id %>?_method=PUT" method="POST">
-                    Name: <input type="text" name="name" value="<%=data.name%>"/><br/>
-                    Image: <input type="text" name="img" value="<%=data.img%>"></br>
-                    Description: <input type="text" name="description" value="<%=data.description%>"/><br/>
-                    HP: <input type="text" name="hp" value="<%=data.hp%>"/><br/>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Name</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" name="name" value="<%=data.name%>"/><br/>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Image</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" name="img" value="<%=data.img%>"></br>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Description</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" name="description" value="<%=data.description%>"/><br/>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Horse Power</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" name="hp" value="<%=data.hp%>"/><br/>
+                </div>
                     <input type="submit" value="submit changes" class="btn btn-secondary">
                 </form>
             </div>
-            <img src="<%=data.img%>" class="rounded mx-auto d-block" alt="...">
-          </div>
-
-</body>
-</html>
+            <img src="<%=data.img %>" class="img-fluid w-35" id="imgedit" alt="...">
+        </div>
+        
+    </body>
+    </html>

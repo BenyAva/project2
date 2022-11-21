@@ -6,33 +6,45 @@
 <body class="container-fluid text-center">
 
         <%- include('../partials/nav.ejs') %> 
-        <h2>Add New Car</h2>
-        <form action="/" method="POST">
-            <div class="form-group">
-                name: <input type="text" name="name"/> <br/>
+        <div class="text-center title">
+            <h1>Add New car</h1>
+        </div>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <form action="/" method="POST">
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Name</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1" name="name"/> <br/>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Image</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1" name="img"/> <br/>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Description</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1" name="description"/> <br/>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Year</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1" name="year"/> <br/>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Make</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1" name="make"/> <br/>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Model</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1" name="model"/> <br/>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Horse Power</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1" name="hp"/> <br/>
+                    </div>
+                
+                        <input class="btn btn-success" type="submit" value="add car"/>
+                    </div>
+                </form>
             </div>
-            <div class="form-group">
-                image: <input type="text" name="img"/> <br/>
-            </div>
-            <div class="form-group">
-                Description : <input type="text" name="description"/> <br/>
-            </div>
-            <div class="form-group">
-                Year: <input type="text" name="year"/> <br/>
-            </div>
-            <div class="form-group">
-                Make: <input type="text" name="make"/> <br/>
-            </div>
-            <div class="form-group">
-                Model: <input type="text" name="model"/> <br/>
-            </div>
-            <div class="form-group">
-                Horse Power: <input type="text" name="hp"/> <br/>
-            </div>
-        
-                <input type="submit" value="add car"/>
-            </div>
-          </form>
-
+          </div>
 </body>
 </html>
