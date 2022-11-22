@@ -7,7 +7,8 @@ const carSchema = new mongoose.Schema({
     make:  { type: String, required: true },
     model:  { type: String, required: true },
     hp: { type: String, required: true },
-    description: { type: String, required: true}
+    description: { type: String, required: true},
+    video: {type: String}
 });
 
 const carCollection = mongoose.model('Car', carSchema);

@@ -37,7 +37,7 @@ app.get('/:id/edit', (req,res) => {
         })
     })
 })
-app.get('/:id',(req,res) => {
+app.get('/show/:id',(req,res) => {
     console.log("THIS IS MY ID"+req.params.id)
     Schema.findById(req.params.id, (err, cars) => {
         console.log(cars)
