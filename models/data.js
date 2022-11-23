@@ -59,5 +59,45 @@ module.exports = [
         description: "The 911 traces its roots to sketches drawn by Ferdinand 'Butzi' Porsche in 1959.The Porsche 911 was developed as a more powerful, larger and a more comfortable replacement for the 356, the company's first model. The new car made its public debut at the 1963 Frankfurt Motor Show[8] (German: Internationale Automobil-Ausstellung).[9] The car was developed with the proof-of-concept twin-fan Type 745 flat-six engine, but the car presented at the auto show had a non-operational mockup of the single-fan 901 engine, receiving a working unit in February 1964.",
         video:"https://www.youtube.com/embed/bT7ka-NtCFw"
     },
+    {
+        name: "Silvia S15",
+        img: "https://garage-defend.com/uploads/cars/11-21/c5opmhTRqC9tDe6WsVts76hdO9tEw2UOzFeANdf2.jpeg",
+        year: "1999–2002",
+        make: "Nissan",
+        model: "Silvia 200SX S15",
+        hp: "250",
+        description: "The S15 Silvia included aggressive styling inside and out; upgrades to the chassis and suspension, including increased use of light alloy suspension components; and for the first time, a six-speed manual transmission (in addition to a 5-speed manual transmission and a four-speed automatic). Also for the first time, instead of a viscous limited slip differential, the S15 offered a more effective helical limited slip unit.",
+        video:"https://www.youtube.com/embed/bT7ka-NtCFw"
+    },
+    {
+        name: "C6 Corvette",
+        img: "https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2021/07/forgestar-c6-corvette.jpg",
+        year: "2009",
+        make: "Chevy",
+        model: "C6 Corvette",
+        hp: "430",
+        description: "The Chevrolet Corvette (C6) is the sixth generation of the Corvette sports car that was produced by Chevrolet division of General Motors for the 2005 to 2013 model years. It is the first Corvette with exposed headlamps since the 1962 model. Production variants include the Z06, ZR1, Grand Sport, and 427 Convertible. Racing variants include the C6.R, an American Le Mans Series GT1 championship and 24 Hours of Le Mans GTE-Pro winner.",
+        video:"https://www.youtube.com/embed/bT7ka-NtCFw"
+    },
+    {
+        name: "Viper SRT GTS",
+        img: "http://avantgardemotorsports.com/wordpress/wp-content/uploads/2015/10/DSC_0726.jpg",
+        year: "2014",
+        make: "Dodge",
+        model: "Viper SRT GTS",
+        hp: "640",
+        description: "The Dodge Viper is a sports car that was manufactured by Dodge (by SRT for 2013 and 2014), a division of American car manufacturer FCA US LLC from 1992 until 2017, having taken a brief hiatus in 2007 and from 2010 to 2012. Production of the two-seat super car began at New Mack Assembly Plant in 1991 and moved to Conner Avenue Assembly Plant in October 1995.",
+        video:"https://www.youtube.com/embed/bT7ka-NtCFw"
+    },
+    {
+        name: "Acura NSX",
+        img: "http://www.stancenation.com/wp-content/uploads/2013/03/182.jpg",
+        year: "1991",
+        make: "Acura",
+        model: "NSX",
+        hp: "270",
+        description: "The NSX project was initiated in 1984. The engineers at Tochigi Research and Development Center created a list of attributes the future NSX had to possess. First on their list was top-rank performance on a level equal to or greater than the existing exotics. Their interpretation of performance was not narrowly defined to a few areas such as power, handling and brakillg, but included areas that are often given less attention by the traditional builders of exotica.",
+        video:"https://www.youtube.com/embed/bT7ka-NtCFw"
+    },
 
 ]

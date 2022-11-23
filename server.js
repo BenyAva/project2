@@ -19,6 +19,10 @@ app.use(express.static(__dirname + "/public"))
 //   }
 // })
 
+
+// Schema.collection.drop()
+
+
 ///get
 app.get('/', (req, res) => {
     Schema.find({}, (error, allCars) => {
@@ -79,4 +83,3 @@ mongoose.connect('mongodb://localhost:27017/carsDatabase', () => {
 })
 
 
-// Schema.collection.drop()
