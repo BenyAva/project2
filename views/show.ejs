@@ -13,7 +13,7 @@
 
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-              <img src="<%=data.img%>" class="img-fluid w-25" alt="...">
+              <img src="<%=data.img%>" class="img-fluid w-25" id="showimg" alt="...">
                 <h1 class="display-4"><%=data.name %></h1>
                 <hr class="my-4">
                 <p class="lead">Hp:<%=data.hp%></p>
@@ -24,10 +24,14 @@
                 <p class="lead"><%=data.description %></p>              
                 <a href="/<%=data._id%>/edit"><button type="button" class="btn btn-secondary">Edit</button></a>
 
-                <iframe width="826" height="465" src="<%=data.video%>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
+              <iframe width="826" height="465" src="<%=data.video%>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               
           </div>
       
+          <%- include('../partials/footer.ejs') %>
+
+
+
 </body>
 </html>
