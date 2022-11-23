@@ -83,3 +83,14 @@ iframe{
     color: gray;
     text-shadow: 1px 1px 2px black;
 }
+
+
+@media (max-width: 499px) {
+    iframe {
+        width: 90%;
+        height: 100%;
+    }
+}
+
+
+
